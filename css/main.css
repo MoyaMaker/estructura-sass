@@ -1,3 +1,7 @@
+:root {
+  --primary: #ff5252;
+  --secondary: green; }
+
 *,
 *:before,
 *:after {
@@ -31,6 +35,13 @@ a {
       background-color: red; } }
 
 .menu {
-  background-color: red; }
+  background-color: #ff5252; }
+  @media screen and (min-width: 48rem) {
+    .menu {
+      background-color: green; } }
   .menu__item {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #00b300; }
+    .menu__item:first-child {
+      color: #004d00; }

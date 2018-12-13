@@ -1,7 +1,18 @@
 .menu {
-    background-color: red;
+    background-color: $primary;
+
+    @include mq(md) {
+        background-color: $secondary;
+    }
 
     &__item {
         text-decoration: none;
+
+        font-size: rem(20px);
+
+        &:first-child {
+            color: darken($secondary, 10);
+        }
+        color: lighten($secondary, 10);
     }
 }
