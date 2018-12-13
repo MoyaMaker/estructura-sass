@@ -18,7 +18,7 @@ a {
 
 .wrapper {
   display: grid;
-  grid-template: repeat(4, 1fr); }
+  grid-template: auto/repeat(4, 1fr); }
 
 .btn {
   border: none;

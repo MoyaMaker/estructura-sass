@@ -16,6 +16,11 @@
 3. Importa desde un archivo principal
 4. Compila
 
+## Estructuras de Sass
+
+[Arquitectura de proyecto Sass](https://www.sitepoint.com/architecture-sass-project/)
+[Arquitecturas de Sass populares](https://www.sitepoint.com/look-different-sass-architectures/)
+
 ### Compiladores de Sass
 
 [Prepros](https://prepros.io/)
