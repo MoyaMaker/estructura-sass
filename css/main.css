@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.wrapper {
+  display: grid;
+  grid-template: repeat(4, 1fr); }
+
+.btn {
+  border: none;
+  outline: none;
+  font-size: 1rem; }
+  .btn:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 48rem) {
+    .btn {
+      background-color: red; } }

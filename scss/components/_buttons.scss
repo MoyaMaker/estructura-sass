@@ -1,0 +1,14 @@
+.btn {
+    border: none;
+    outline: none;
+
+    font-size: rem(16px);
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @include mq(md) {
+        background-color: red;
+    }
+}
