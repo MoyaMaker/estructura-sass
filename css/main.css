@@ -16,9 +16,9 @@ a {
   a:hover {
     text-decoration: underline; }
 
-.wrapper {
+.holy-grail {
   display: grid;
-  grid-template: auto/repeat(4, 1fr); }
+  grid-template: auto/repeat(3, 1fr); }
 
 .btn {
   border: none;
@@ -29,3 +29,8 @@ a {
   @media screen and (min-width: 48rem) {
     .btn {
       background-color: red; } }
+
+.menu {
+  background-color: red; }
+  .menu__item {
+    text-decoration: none; }
