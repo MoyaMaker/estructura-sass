@@ -18,10 +18,10 @@
 
 ## Estructuras de Sass
 
-[Arquitectura de proyecto Sass](https://www.sitepoint.com/architecture-sass-project/)
-[Arquitecturas de Sass populares](https://www.sitepoint.com/look-different-sass-architectures/)
+* [Arquitectura de proyecto Sass](https://www.sitepoint.com/architecture-sass-project/)
+* [Arquitecturas de Sass populares](https://www.sitepoint.com/look-different-sass-architectures/)
 
 ### Compiladores de Sass
 
-[Prepros](https://prepros.io/)
-[Node sass](https://www.npmjs.com/package/node-sass)
+* [Prepros](https://prepros.io/)
+* [Node sass](https://www.npmjs.com/package/node-sass)
